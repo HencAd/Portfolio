@@ -1,0 +1,201 @@
+@font-face{
+    font-family: Chalk-Menu;
+    src:url(../font/board.ttf);
+    }
+
+.contact{
+    margin-bottom: 50px; 
+    padding-top: 20px;
+}
+.contact__title{
+    color: ivory;
+    text-shadow: 3px 2px  lightblue;
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    padding:  10px 15px; 
+    margin: 20px 0;
+}
+.contact__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.form__container{
+    background-image: url(../img/tabel.jpg); /* Photo by Kelly Sikkema on Unsplash */
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 6px 0px rgb(7, 16, 36);
+    -moz-box-shadow: 5px 5px 6px 0px rgba(7, 16, 36);
+    box-shadow: 5px 5px 6px 0px rgba(7, 16, 36);
+    font-family: Chalk-Menu, sans-serif;
+}
+.form__title{
+    padding: 30px;
+    text-align: center;
+    color: ivory;
+    font-size: 4em;
+    letter-spacing: 0.2em;
+}
+.form__body{
+    display: flex;
+    align-items: center;
+    font-family: Chalk-Menu, sans-serif;
+    letter-spacing: 0.3em;
+    color: ivory;
+    font-size: 1.5em;
+    padding: 50px 30px 60px 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 1.8em;
+}
+.form__row{
+    margin: 10px 0 30px 0;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 300px;
+    background-color: transparent;
+    color: ivory;
+    border: none;
+    border-bottom: 2px solid rgba(219, 225, 233, 0.856);
+    font-size: 15px;
+	display: block;
+    padding: 1rem;
+	text-decoration: none;
+    font-family: Merriweather;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(219, 225, 233, 0.856);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+   border-bottom: 2px solid rgba(219, 225, 233, 0.856);
+  -webkit-text-fill-color: ivory;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+textarea{
+    resize: none;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 200px;
+    line-height: 2rem;
+}
+.form__row:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn--form{
+    border: 2px solid rgba(219, 225, 233, 0.856);
+    font-size: 2em;
+    font-family: Chalk-Menu,sans-serif;
+   
+}
+.form__error{
+    max-width: 350px;
+    word-wrap: break-word;
+    font-size: 0.7em;
+    color: rgba(199, 13, 13, 0.836);
+}
+
+.lightbox { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.lightbox:before { 
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+    background: rgba(0,0,0,.7); 
+}
+.lightbox__content { 
+    min-width: 520px; 
+    position: relative; 
+    background: rgb(255, 248, 248); 
+    color: #222; 
+    padding: 15px; 
+    border-radius: 5px; 
+}
+.lightbox__header { 
+    text-align: center; 
+    font-family: 'Cambria', sans-serif;
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    font-size: 3.5rem; 
+}
+
+.lightbox__actions{ 
+    text-align: center; 
+}
+.btn--extra{
+    border: 2px solid #222 !important; 
+    color: #222 !important; 
+    font-family: 'Cambria', sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    font-weight: bold;
+}
+
+@media screen and (max-width: 56.25em){
+    .form__body{
+    padding: 50px 100px 50px 50px;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 30px;
+    }
+}
+@media screen and (max-width: 48em){
+    .form__body{
+    padding: 50px;
+    margin-left: 130px;
+    margin-right: 30px;
+    margin-top: 30px;
+    }
+    .btn--form{
+        display: block;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 37.5em){
+    .form__body{
+    margin-left: 30px;
+    margin-top: 30px;
+    }   
+    .form__container{
+    background-position: center;
+    }
+}
+@media screen and (max-width: 2em){
+    .form__body{
+    margin: 0;
+    }
+
+}

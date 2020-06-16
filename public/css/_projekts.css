@@ -1,0 +1,89 @@
+.projects{
+   
+    padding: 20px;
+}
+.projekts__title{
+    color: ivory;
+    text-shadow: 2px 2px lightblue;
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    padding:  15px 15px; 
+    margin: 20px 0;
+}
+.projects__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.project{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.project--TODO {
+    background-image: url(../img/todo.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.project--weather {
+    background-image: url(../img/weatherApp.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.project--portfolio {
+    background-image: url(../img/portfolio.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.project--movies {
+    background-color: maroon;
+    background-position: center;
+    background-size: cover;
+}
+.project--plants {
+    background-color: maroon;
+    background-position: center;
+    background-size: cover;
+}
+.project__desc{
+    position: relative;
+    background-color: rgba(8, 48, 107, 0.9);
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+.project__desc:hover{
+    opacity: 1;
+    border-radius: 5px;
+}
+.project__desc--title{
+    color: ivory;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.project__desc--stack {
+    color: ivory;
+    text-align: center;
+    font-size: 1.5em;
+}
+.btn__container{
+    position: absolute ;
+    bottom: 60px;
+    left: 80px;
+}
+.btn--project {
+    margin-left: 5px;
+}
+.btn--project:hover {
+    background-color: rgba(0, 3, 7, 0.5);
+    color: lightgreen;
+}
+

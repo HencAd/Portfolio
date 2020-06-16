@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(../img/tlo1.jpg); /* Photo by Fabrizio Conti on Unsplash */
+  background-size: cover;
+  opacity: 0.8;
+  
+}   
+.home__title {
+    color: ivory;
+    font-size: 4.5rem;
+  }
+@media screen and (max-width: 56.25em) {
+.home__title {
+      font-size: 3.5rem;
+    }}
+@media screen and (max-width: 37.5em) {
+.home__title {
+      font-size: 3rem;
+      padding: 0 3rem;
+    }}
+@media screen and (max-width: 20em) {
+.home__title {
+      font-size: 2.5rem;
+    }}
+
+.highlight {
+      font-weight: 900;
+      text-shadow: 3px 2px lightblue;
+    }
+.cross {
+      text-decoration: line-through;
+}
+
+

@@ -1,0 +1,64 @@
+@import "./_navi.css";
+@import "./_home.css";
+@import "./_about.css";
+@import "./_projekts.css";
+@import "./_contact.css";
+@import "./_footer.css";
+@import "./error.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 67.5%;
+  }
+@media only screen and (max-width: 75em) {
+    html {
+    font-size: 60.5%;
+  }}
+@media only screen and (max-width: 56.25em) {
+    html {
+    font-size: 55.5%;
+  }}
+
+body {
+    background: radial-gradient(ellipse at bottom,rgba(0, 191, 255, 0.849) 10%, #090a0f 90%);
+    font-family: Merriweather, sans-serif;
+    font-weight: 400;
+  }
+
+.btn{
+    font-size: 3.5rem;
+    margin-top: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid rgba(7, 102, 245, 0.5);
+    outline: none;
+    border-radius: 16px 16px 16px 16px;
+    color: ivory;
+    transition: 0.2s ease-out;
+  }
+.btn:hover {
+    transform: scale(1.1);
+    background-color: rgba(8, 48, 107, 0.5);
+    cursor: pointer;
+  }
+  
+.link{
+    text-decoration: none;
+    color: ivory;
+  }
+
+.icon{
+  width: 70px;
+  height: 70px;
+}
+
+
+
+
+

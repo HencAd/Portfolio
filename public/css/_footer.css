@@ -1,0 +1,29 @@
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+
+}
+.demo-icon{
+    color: ivory;
+    padding: 20px;
+    font-size: 4em;
+}
+.link--social:hover{
+    transition: 0.6s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.copy__content{
+    color: ivory;
+    font-size: 1.5em;  
+}

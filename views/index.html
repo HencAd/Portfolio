@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Adrianna Henc front-end developer portfolio"/>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="/img/icon/fontello-80b1687b/css/facebook.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue" type="text/javascript" defer></script>
+    <script src="/js/main.js" defer ></script>
+
+    <title>Adrianna Henc</title>
+  </head>
+
+  <body>
+        <header class="header">
+            <nav>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="link header__link--nav" href="#homeSection">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="link header__link--nav" href="#aboutSection">About</a>
+                    </li>
+                    <li class="header__item"> 
+                        <a class="link header__link--nav" href="#projectsSection">Projects</a>
+                    </li>
+                    <li class="header__item"> 
+                        <a class="link header__link--nav" href="#contactSection">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+<!--    HOME     -->
+        <section id="homeSection" class="home">
+            <div class="home__title">
+              Hello, I am <span class="highlight"> Adrianna Henc</span>.
+              <br />
+              I <span class="cross">am</span> want to be a front-end devloper.
+              <br />
+             <button class="btn btn--main"> <a class="link" href="#projectsSection">
+                <p>View my work</p>
+              </a> </button>
+            </div>
+        </section>
+<!--   ABOUT   -->
+        <section id="aboutSection" class="about">
+            <p class="about__title">About me</p>
+                <div class="about__body">
+                    <div class="about__photo">
+                        <div class="photo"><img class="photo__img"  src ="../img/ja.jpg"  alt="Adrianna Henc"> 
+                        </div>
+                        </div>
+                        <div class="about__content">
+                        No monster will scare me! I like challenges. I am constantly developing, using acquired knowledge and learning new technologies. I have several of my own projects listed below. I have no problems with team working and communication. I am very eager to learn.
+                        </div>
+                        <div class="about__skills">
+                         <p class="skills__title"> Skills</p>
+                            <div class="skills__container">
+                                <div class="skills__icon">
+                                    <img class="icon" src="../img/icon/html.png" alt="html5">
+                                    <div class="icon__name" >HTML5</div>
+                                </div>
+                                <div class="skills__icon">
+                                    <img class="icon" src="../img/icon/css3.png" alt="css3">
+                                    <div class="icon__name" >CSS3</div>
+                                </div>
+                                <div class="skills__icon">
+                                    <img class="icon" src="../img/icon/js.png" alt="javascript">
+                                    <div class="icon__name" >JavaScript</div>
+                                </div>
+                                <div class="skills__icon">
+                                    <img class="icon" src="../img/icon/nodejs.png" alt="nodejs">
+                                    <div class="icon__name" >NodeJS</div>
+                                </div>
+                                <div class="skills__icon">
+                                    <img class="icon" src="../img/icon/bootstrap.png" alt="bootstrap">
+                                    <div class="icon__name" >Bootstrap</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </section>
+<!--PROJECTS-->
+        <section id="projectsSection" class="projects">
+            <p class="projekts__title">Projekts</p>
+            <div class="projects__body">
+                <div class="project project--TODO">
+                    <div class="project__desc">
+                        <p class="project__desc--title">App TODO</p>
+                        <p class="project__desc--stack">
+                        html / css / vanilla js / localStorage 
+                        </p>
+                        <div class="btn__container">
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Live</a>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project project--weather">
+                    <div class="project__desc">
+                        <p class="project__desc--title">Wheather App</p>
+                        <p class="project__desc--stack">
+                        html / css / vanilla js / API 
+                        </p>
+                        <div class="btn__container">
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Live</a>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project project--portfolio">
+                    <div class="project__desc">
+                        <p class="project__desc--title">Portfolio</p>
+                        <p class="project__desc--stack">
+                        html / css / vanilla js / webpack
+                        </p>
+                        <div class="btn__container">
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Live</a>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project project--movies">
+                    <div class="project__desc">
+                        <p class="project__desc--title">Movies</p>
+                        <p class="project__desc--stack">
+                        html / css / vanilla js / NodeJS / MongoDB / Express
+                        </p>
+                        <div class="btn__container">
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Live</a>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project project--plants">
+                    <div class="project__desc">
+                        <p class="project__desc--title">Plants</p>
+                        <p class="project__desc--stack">
+                        html / css / vanilla js/ Bootstrap
+                        </p>
+                        <div class="btn__container">
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Live</a>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn--project">Code</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+<!--CONTACT-->
+        <section id="contactSection" class="contact"> 
+            <p class="contact__title">Contact</p>
+            <div class="contact__body">
+                <div class="form__container">
+                    <p class="form__title"> Write to me... </p>
+                    <div class="form__body">
+                        <form action="/email" id="contactForm" method="post">
+                            <div class="form__row">
+                                <label for="name">Full Name: </br>
+                                <input type="text" name="name" id="name" required data-text-error="The Full Name field is required"></label> 
+                            </div>
+                            <div class="form__row">
+                                <label for="email">E-mail:</br>
+                                <input type="email" name="email" id="email" required data-text-error="The E-mail field is not a valid E-mail adress"></label>
+                            </div>
+                            <div class="form__row">
+                                <label for="msg">Message:</br></label>
+                                <textarea name="msg" id="msg" required data-text-error="Please fill out this field"></textarea>
+                            </div>
+                            <div class="form__row">
+                                <input class="btn btn--form" type="submit" name="send" value="Send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a class="link link--social" href="https://www.facebook.com/ada.henc.5" target="_blank" rel="noopener"><i class="demo-icon icon-facebook-squared"></i></a>
+            <a class="link link--social" href="https://www.instagram.com/adison_why_not/?hl=pl" target="_blank" rel="noopener"><i class="demo-icon icon-instagram"></i></a>
+            <a class="link link--social" href="https://www.linkedin.com/in/adrianna-henc-320187131/" target="_blank" rel="noopener"><i class="demo-icon icon-linkedin-squared"></i></a>
+            <a class="link link--social" href="https://github.com/HencAd" target="_blank" rel="noopener"><i class="demo-icon icon-github-squared"></i></a>
+        </div>
+        <div class="copy">
+            <p class="copy__content">&copy:AH 2020</p>
+        </div>
+    </footer>
+    </body>
+</html>
