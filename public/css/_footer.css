@@ -27,3 +27,9 @@
     color: ivory;
     font-size: 1.5em;  
 }
+@media screen and (max-width: 20em) {
+    .demo-icon{
+        padding: 10px;
+        font-size: 4em;
+    }
+  }

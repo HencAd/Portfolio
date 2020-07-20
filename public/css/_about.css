@@ -139,6 +139,10 @@
 }}
 
 @media screen and (max-width: 20em) {
+    .about{
+        padding-bottom: 0px; 
+        padding-top: 10px;
+    }
     .about__body{
         flex-direction: column;
         align-items: center;
@@ -150,7 +154,7 @@
         max-width: 300px;
         margin: 5px;
 }
-.photo__img{
+    .photo__img{
         width: 270px;
         -webkit-box-shadow: 5px 5px 6px 3px rgb(24, 27, 34);
         -moz-box-shadow: 5px 5px 6px 3px rgba(24, 27, 34);
@@ -167,7 +171,7 @@
         font-size: 1.3rem;
         text-align: center;
         padding: 5px;
-        margin: 30px 20px;
+        margin: 15px 5px;
 }
     .skills__container{
         display: flex;
@@ -176,6 +180,10 @@
         align-content: center;
         justify-items: center;
         align-items: center;
+}
+    .skills__icon{
+    margin: 20px;
+    
 }}
 
 @keyframes animation_opacity{

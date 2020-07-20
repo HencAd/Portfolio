@@ -193,9 +193,53 @@ textarea{
     background-position: center;
     }
 }
-@media screen and (max-width: 2em){
-    .form__body{
-    margin: 0;
+@media screen and (max-width: 20em){
+    .contact{
+        margin-bottom: 20px; 
     }
+    .form__title{
+        padding: 10px;
+        text-align: center;
+        color: ivory;
+        font-size: 2em;
+        letter-spacing: 0.2em;
+    }
+    .form__container{
+        width: 100%;
+    }
+    .form__body{
+        margin: 0;
+        padding: 50px 10px 60px 20px;
+        font-size: 1.2em;
+    }
+    input[type=text],
+    input[type=email],
+    textarea{
+        width: 200px;  
+    }
+    textarea{
+        resize: none;
+        min-width: 200px;
+        max-width: 200px;
+    }
+    .form__error{
+        max-width: 250px;
+    }
+    .lightbox__content { 
+        min-width: 220px; 
+        position: relative; 
+        background: rgb(255, 248, 248); 
+        color: #222; 
+        padding: 15px; 
+        border-radius: 5px; 
+    }
+    .lightbox__header { 
+        text-align: center; 
+        font-family: 'Cambria', sans-serif;
+        letter-spacing: 2px; 
+        text-transform: uppercase; 
+        font-size: 2.5rem; 
+    }
+
 
 }
