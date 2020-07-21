@@ -193,7 +193,7 @@ textarea{
     background-position: center;
     }
 }
-@media screen and (max-width: 20em){
+@media screen and (max-width: 25em){
     .contact{
         margin-bottom: 20px; 
     }

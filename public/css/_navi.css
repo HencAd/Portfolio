@@ -40,7 +40,7 @@
   header.sticky ul li a:hover { 
     color: rgb(54, 96, 173);
   }
-  @media screen and (max-width: 20em) {
+  @media screen and (max-width: 25em) {
     .header__link--nav {
       margin: 0 10px;
       font-size: 1.5rem;

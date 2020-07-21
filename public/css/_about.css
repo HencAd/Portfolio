@@ -166,7 +166,7 @@
 }
 }
 
-@media screen and (max-width: 20em) {
+@media screen and (max-width: 25em) {
     .about{
         padding-bottom: 0px; 
         padding-top: 10px;
