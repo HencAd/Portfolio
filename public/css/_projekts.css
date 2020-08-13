@@ -46,7 +46,7 @@
     background-size: cover;
 }
 .project--plants {
-    background-color: maroon;
+    background-image: url(../img/plants.JPG);
     background-position: center;
     background-size: cover;
 }
